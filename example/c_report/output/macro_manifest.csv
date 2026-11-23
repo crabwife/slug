@@ -1,0 +1,3 @@
+macro,source,column,filters,raw,formatted,decimals,percent
+SnailCount,b_analyze/output/summary.csv,snail_count,{},3,3,0,False
+MeanLeaves,b_analyze/output/summary.csv,mean_leaves,{},3,3.0,1,False

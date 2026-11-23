@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "task": "c_report",
+  "makefile": "Makefile",
+  "manuscript": "paper/main.tex",
+  "insert_input": true,
+  "macros": [
+    {
+      "name": "SnailCount",
+      "source": "b_analyze/output/summary.csv",
+      "where": {},
+      "column": "snail_count",
+      "decimals": 0,
+      "percent": false
+    },
+    {
+      "name": "MeanLeaves",
+      "source": "b_analyze/output/summary.csv",
+      "where": {},
+      "column": "mean_leaves",
+      "decimals": 1,
+      "percent": false
+    }
+  ]
+}
