@@ -1,0 +1,32 @@
+# macOS
+.DS_Store
+._*
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.venvs/
+.env
+.env.*
+!.env.example
+
+# Packaging and tool caches
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# LaTeX build byproducts
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
